@@ -1,0 +1,28 @@
+# Prerequisites
+node_modules/
+.venv/
+venv/
+env/
+*.log
+
+# Build outputs
+.next/
+dist/
+build/
+out/
+current_report.pdf
+
+# Databases & Local Data
+*.db
+*.sqlite3
+.convex/
+
+# IDE Settings
+.vscode/
+.idea/
+.DS_Store
+
+# Environment Variables (Crucial!)
+.env
+.env.local
+.env.production
